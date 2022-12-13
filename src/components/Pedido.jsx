@@ -24,7 +24,7 @@ return (
                                     <div className="botones-pedido">
                                         <p>$ {formatearPrecio(item.price * item.count)}</p>
                                         <button className="agregar-disminuir button" onClick={() => removeFromCarro(item)}>-</button>
-                                        <p className="bold">{item.count}</p>
+                                        <p className="bold numero-centrado">{item.count}</p>
                                         <button className="agregar-disminuir button" onClick={() =>  addToCarro(item)}>+</button>
                                     </div>
                                 </article>

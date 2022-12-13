@@ -55,6 +55,14 @@ header .fa-shopping-cart {
   color:#a7c81f;
 }
 
+.cerrar-sesion {
+  background-color: #a5432a;
+}
+
+.cerrar-sesion:hover {
+  background-color: #7f3421;
+}
+
 header p {
   font-family: 'Bitter', serif;
 }
@@ -119,6 +127,10 @@ header p {
   margin: 0 10px;
 }
 
+.botones-pedido .numero-centrado {
+  padding: 0;
+}
+
 .pedido .detalle-producto .botones-pedido .agregar-disminuir span {
   font-family: 'Bitter', serif;
 }
@@ -163,14 +175,15 @@ header p {
 /* comienzo componente Footer */
 footer {
   border-top: 1px solid #a7c81f;
-  background-color: #fff;
   width: 100%;
+  min-height: 100%;
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 footer small {
   font-family: 'Bitter', serif;
+
 }
 /* cierre componente Footer */
 

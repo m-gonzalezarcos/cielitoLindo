@@ -32,7 +32,7 @@ const Navbar = () => {
                     <Link to="/carta"><button>Carta</button></Link>
                     {/* condicional ternaria. si token es igual a null muéstrame iniciar sesión y si no muestrma cerra sesión */}
                     {token === null ? 
-                    <Link to="/iniciar"><button>Iniciar Sesión</button></Link> : <button onClick={cerrarSesion}>Cerrar Sesión</button>}
+                    <Link to="/iniciar"><button>Iniciar Sesión</button></Link> : <button className='cerrar-sesion' onClick={cerrarSesion}>Cerrar Sesión</button>}
                 </div>}
 
                 {/* si si location.pathname es estrictamente igual a la vista carta, detalle y pedido muestra un carrito */}
